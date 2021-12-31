@@ -7,8 +7,8 @@ class FileEntry extends Entry {
   FileEntry(this._name, this._parent);
 
   int get depth {
-    int depth = 0;
-    if (_parent != null) depth += _parent.depth + 1;
+    int depth = 1;
+    if (_parent != null) depth += _parent.depth;
     return depth;
   }
 
