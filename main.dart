@@ -5,6 +5,7 @@ import 'prototype/prototype_pattern_operator.dart';
 import 'singleton/singleton_pattern_operator.dart';
 import 'adapter/adapter_pattern_operator.dart';
 import 'bridge/bridge_pattern_operator.dart';
+import 'composite/composite_pattern_operator.dart';
 
 void main() {
   // Abstract Factoryパターン
@@ -27,4 +28,7 @@ void main() {
 
   // Bridgeパターン
   BridgePatternOperator.operation();
+
+  // Compositeパターン
+  CompositePatternOperator.operation();
 }
