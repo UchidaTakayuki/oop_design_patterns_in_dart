@@ -7,6 +7,7 @@ import 'adapter/adapter_pattern_operator.dart';
 import 'bridge/bridge_pattern_operator.dart';
 import 'composite/composite_pattern_operator.dart';
 import 'decorator/decorator_pattern_operator.dart';
+import 'facade/facade_pattern_operator.dart';
 
 void main() {
   // Abstract Factoryパターン
@@ -35,4 +36,7 @@ void main() {
 
   // Decoratorパターン
   DecoratorPatternOperator.operation();
+
+  // Facadeパターン
+  FacadePatternOperator.operation();
 }
