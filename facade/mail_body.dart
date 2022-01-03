@@ -19,15 +19,15 @@ class MailBody {
   }
 
   String getImportantBody() {
-    String _importantBody = _contact.lastName + '様\n';
-    _importantBody += '\n';
-    _importantBody += 'いつもお世話になっております。\n';
-    _importantBody += '株式会社〇〇の〇〇です。\n';
-    _importantBody += '大変お手数ですが下記の内容のご確認のほどよろしくお願い致します。\n';
-    _importantBody += '\n';
-    _importantBody += _body;
-    _importantBody += '\n';
-    _importantBody += _getSignature();
-    return _importantBody;
+    String importantBody = _contact.lastName + '様\n';
+    importantBody += '\n';
+    importantBody += 'いつもお世話になっております。\n';
+    importantBody += '株式会社〇〇の〇〇です。\n';
+    importantBody += '大変お手数ですが下記の内容のご確認のほどよろしくお願い致します。\n';
+    importantBody += '\n';
+    importantBody += _body;
+    importantBody += '\n';
+    importantBody += _getSignature();
+    return importantBody;
   }
 }
