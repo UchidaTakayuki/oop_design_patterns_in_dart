@@ -7,7 +7,7 @@ import 'verification.dart';
 
 class BridgePatternOperator {
   static void operation() {
-    Contact contact = new Contact('0000', 'foo', 'bar', 'baz@gmail.com');
+    Contact contact = new Contact('0000', 'foo', 'bar', 'baz@example.com');
 
     // JSON形式のファイル作成確認
     ContactJsonFileImpl jsonFileImpl =

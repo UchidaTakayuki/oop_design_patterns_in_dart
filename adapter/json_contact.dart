@@ -8,13 +8,13 @@ class JsonContact {
           "id": "id1",
           "firstName": "fistName1",
           "lastName": "lastName1",
-          "mailAddress": "mail1@gmail.com"
+          "mailAddress": "mail1@example.com"
         },
         {
           "id": "id2",
           "firstName": "fistName2",
           "lastName": "lastName2",
-          "mailAddress": "mail2@gmail.com"
+          "mailAddress": "mail2@example.com"
         }
       ]
     }

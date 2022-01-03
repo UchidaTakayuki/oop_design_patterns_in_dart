@@ -4,9 +4,9 @@ import 'mail_template_manager.dart';
 
 class PrototypePatternOperator {
   static void operation() {
-    MailAddress address1 = MailAddress('foo1', 'bar1', 'baz1@gmail.com');
-    MailAddress address2 = MailAddress('foo2', 'bar2', 'baz2@gmail.com');
-    MailAddress address3 = MailAddress('foo3', 'bar3', 'baz3@gmail.com');
+    MailAddress address1 = MailAddress('foo1', 'bar1', 'baz1@example.com');
+    MailAddress address2 = MailAddress('foo2', 'bar2', 'baz2@example.com');
+    MailAddress address3 = MailAddress('foo3', 'bar3', 'baz3@example.com');
 
     Mail mail1 = Mail(
         'TestMail1', 'Good morning!', [address1, address2, address3], [], []);
