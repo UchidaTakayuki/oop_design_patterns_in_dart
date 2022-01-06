@@ -8,6 +8,7 @@ import 'bridge/bridge_pattern_operator.dart';
 import 'composite/composite_pattern_operator.dart';
 import 'decorator/decorator_pattern_operator.dart';
 import 'facade/facade_pattern_operator.dart';
+import 'flyweight/flyweight_pattern_operator.dart';
 
 void main() {
   // Abstract Factoryパターン
@@ -39,4 +40,7 @@ void main() {
 
   // Facadeパターン
   FacadePatternOperator.operation();
+
+  // Flyweightパターン
+  FlyweightPatternOperator.operation();
 }
