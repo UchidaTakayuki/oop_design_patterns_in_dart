@@ -10,6 +10,7 @@ import 'decorator/decorator_pattern_operator.dart';
 import 'facade/facade_pattern_operator.dart';
 import 'flyweight/flyweight_pattern_operator.dart';
 import 'proxy/proxy_pattern_operator.dart';
+import 'chain_of_responsibility/chain_of_responsibility_pattern_operator.dart';
 
 void main() {
   // Abstract Factoryパターン
@@ -47,4 +48,7 @@ void main() {
 
   // Proxyパターン
   ProxyPatternOperator.operation();
+
+  // Chain of Responsibilityパターン
+  ChainOfResponsibilityPatternOperator.operation();
 }
