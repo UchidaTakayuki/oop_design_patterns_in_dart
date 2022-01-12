@@ -14,6 +14,7 @@ import 'chain_of_responsibility/chain_of_responsibility_pattern_operator.dart';
 import 'command/command_pattern_operator.dart';
 import 'interpreter/interpreter_pattern_operator.dart';
 import 'iterator/iterator_pattern_operator.dart';
+import 'mediator/mediator_pattern_operator.dart';
 
 void main() {
   // Abstract Factoryパターン
@@ -63,4 +64,7 @@ void main() {
 
   // Iteratorパターン
   IteratorPatternOperator.operation();
+
+  // Mediatorパターン
+  MediatorPatternOperator.operation();
 }
