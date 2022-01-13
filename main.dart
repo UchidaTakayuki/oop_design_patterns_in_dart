@@ -15,6 +15,7 @@ import 'command/command_pattern_operator.dart';
 import 'interpreter/interpreter_pattern_operator.dart';
 import 'iterator/iterator_pattern_operator.dart';
 import 'mediator/mediator_pattern_operator.dart';
+import 'memento/memento_pattern_operator.dart';
 
 void main() {
   // Abstract Factoryパターン
@@ -67,4 +68,7 @@ void main() {
 
   // Mediatorパターン
   MediatorPatternOperator.operation();
+
+  // Mementoパターン
+  MementoPatternOperator.operation();
 }
