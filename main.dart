@@ -18,6 +18,7 @@ import 'mediator/mediator_pattern_operator.dart';
 import 'memento/memento_pattern_operator.dart';
 import 'observer/observer_pattern_operator.dart';
 import 'state/state_pattern_operator.dart';
+import 'strategy/strategy_pattern_operator.dart';
 
 void main() {
   // Abstract Factoryパターン
@@ -79,4 +80,7 @@ void main() {
 
   // Stateパターン
   StatePatternOperator.operation();
+
+  // Strategyパターン
+  StrategyPatternOperator.operation();
 }
