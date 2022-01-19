@@ -20,6 +20,7 @@ import 'observer/observer_pattern_operator.dart';
 import 'state/state_pattern_operator.dart';
 import 'strategy/strategy_pattern_operator.dart';
 import 'template_method/template_method_pattern_operator.dart';
+import 'visitor/visitor_pattern_operator.dart';
 
 void main() {
   // Abstract Factoryパターン
@@ -87,4 +88,7 @@ void main() {
 
   // Template Methodパターン
   TemplateMethodPatternOperator.operation();
+
+  // Visitorパターン
+  VisitorPatternOperator.operation();
 }
